@@ -33,6 +33,7 @@ export class Contact extends React.Component  {
     const i = this.state
 
     alert(`${i.first} ${i.last} \n @ ${i.email} \n says: ${i.message}` )
+
     e.preventDefault()
   }
 

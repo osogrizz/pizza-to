@@ -1,4 +1,6 @@
 import React from 'react'
+import TweenLite from 'gsap'
+import scrollTo from '../node_modules/gsap/ScrollToPlugin'
 
 export class Footer extends React.Component {
   constructor(props) {
@@ -8,7 +10,9 @@ export class Footer extends React.Component {
   }
 
   handleScroll(e) {
-    // window.scroll(0,0)
+    TweenLite.to(window, 0.9, {scrollTo: 0})
+
+
   }
 
 
