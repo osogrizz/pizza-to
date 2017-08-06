@@ -178,8 +178,11 @@ li {
   margin: 0 auto;
   height: 100%;
   width: 100%;
-
 }
+.demo-card-image >img:hover {
+  /*mdl-shadow--8dp*/
+}
+
 .demo-card-image.mdl-card {
   margin: 0 auto !important;
   padding: 0;
@@ -188,7 +191,6 @@ li {
   background-size: 5% !important;
   background-position: center !important];
 }
-
 
 
 /*.button {
