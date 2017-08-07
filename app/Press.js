@@ -1,12 +1,12 @@
 let React = require('react')
 let NavLink = require('react-router-dom').NavLink
 let brand = 'https://firebasestorage.googleapis.com/v0/b/pizza-f23b6.appspot.com/o/brand.png?alt=media&token=8c719b95-25d2-4ed3-9088-949f7f7a0fda'
-let press1 = 'app/images/press1.jpg'
-let press2 = 'app/images/press2.jpg'
-let press3 = 'app/images/press3.jpg'
-let press4 = 'app/images/press4.jpg'
-let press5 = 'app/images/press5.jpg'
-let press6 = 'app/images/press6.jpg'
+let press1 = 'https://firebasestorage.googleapis.com/v0/b/pizza-f23b6.appspot.com/o/press1.jpg?alt=media&token=4987f1a8-7660-4267-aca1-22b921151d69'
+let press2 = 'https://firebasestorage.googleapis.com/v0/b/pizza-f23b6.appspot.com/o/press2.jpg?alt=media&token=12b50c0c-fe82-4823-a43c-2ef2f95980e6'
+let press3 = 'https://firebasestorage.googleapis.com/v0/b/pizza-f23b6.appspot.com/o/press3.jpg?alt=media&token=7b7fd4fe-666b-4fbb-bae0-a3fd32a4f863'
+let press4 = 'https://firebasestorage.googleapis.com/v0/b/pizza-f23b6.appspot.com/o/press4.jpg?alt=media&token=96936070-9786-42b9-94e2-18fff1063f6c'
+let press5 = 'https://firebasestorage.googleapis.com/v0/b/pizza-f23b6.appspot.com/o/press5.jpg?alt=media&token=714d3ef2-21dc-4061-b30e-4452f7886b7f'
+let press6 = 'https://firebasestorage.googleapis.com/v0/b/pizza-f23b6.appspot.com/o/press5.jpg?alt=media&token=714d3ef2-21dc-4061-b30e-4452f7886b7f'
 
 export function Press() {
   return (
