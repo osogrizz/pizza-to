@@ -1,5 +1,5 @@
 let React = require('react')
-let brand = 'app/images/brand.png'
+let brand = 'https://firebasestorage.googleapis.com/v0/b/pizza-f23b6.appspot.com/o/brand.png?alt=media&token=8c719b95-25d2-4ed3-9088-949f7f7a0fda'
 let pizza = 'app/images/pizza.jpg'
 let storefront = 'app/images/store-front.jpg'
 

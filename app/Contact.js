@@ -1,6 +1,6 @@
 import React from 'react'
 import  { NavLink } from 'react-router-dom'
-let brand = 'app/images/brand.png'
+let brand = 'https://firebasestorage.googleapis.com/v0/b/pizza-f23b6.appspot.com/o/brand.png?alt=media&token=8c719b95-25d2-4ed3-9088-949f7f7a0fda'
 
 
 export class Contact extends React.Component  {
