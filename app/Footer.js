@@ -11,8 +11,6 @@ export class Footer extends React.Component {
 
   handleScroll(e) {
     TweenLite.to(window, 0.9, {scrollTo: 0})
-
-
   }
 
 
@@ -23,7 +21,7 @@ export class Footer extends React.Component {
       <footer className='mdl-mini-footer'>
 
         <div className='mdl-mini-footer__left-section'>
-          <div className='mdl-logo'>Totonno's © 2017</div>
+          <div className='mdl-logo effect-shine color tot'>Totonno's © 2017</div>
         </div>
 
         <div className='mdl-mini-footer__middle-section'>
@@ -35,7 +33,7 @@ export class Footer extends React.Component {
 
 
         <div className='mdl-mini-footer__right-section'>
-            <div className='mdl-logo'>A Website by - BobaBird Studios</div>
+            <div className='mdl-logo effect-shine color'>A Website by - BobaBird Studios</div>
         </div>
 
 
